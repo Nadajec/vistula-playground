@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class AdultAgeProviderTest {
     @Test
+    //
     public void shouldReturnCorrectAgeUSA() {
         assert AdultAgeProvider.getAdultAge("USA") == 21;
     }
